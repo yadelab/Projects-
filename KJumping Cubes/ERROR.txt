@@ -1,0 +1,8 @@
+Hello,
+
+I have been working on my virtual machine on my Windows laptop and I tried to hw commit, then hw update or hw checkout so that I could go onto the Eclipse on the instructional computer and debug my Game.java file. While doing this, I accidentally overwrote everything in my Game.java and I have been set back by a lot. Instead of preparing to start on HumanPlayer.java I know have to recode/debug everything that I have done.
+
+I was hoping to recover the files that I committed at around 1:05 am or earlier; anything with the most code on Game.java or that looks most complete. This would keep me from crying. Please and thank you.
+
+
+Yadel Abraham

@@ -1,0 +1,21 @@
+#Play against the staff solution, making sure that somebody
+# wins without crashing.
+java -ea jump61.Main
+staff-jump61
+===#1===
+seed 100043
+size 4
+auto red
+manual blue
+start
+%mr
+%ib...
+%e
+quit
+===#2===
+seed 100043
+size 4
+start
+%ir...
+%e
+quit

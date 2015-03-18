@@ -1,0 +1,233 @@
+-*- mode: compilation; default-directory: "/home/cc/cs61b/fa14/class/cs61b-oa/proj1/db61b/" -*-
+Compilation started at Fri Oct 24 22:05:27
+
+make style
+javac -g -Xlint:unchecked -cp ..:.:/home/ff/cs61b/lib/ucb.jar:/home/ff/cs61b/lib/ucb-f2007.jar:/home/ff/cs61b/lib/junit.jar:/home/ff/cs61b/lib/jpt.jar:/home/ff/cs61b/lib/hamcrest-core.jar BasicRowTest.java BasicTests.java Column.java CommandInterpreter.java Condition.java DBException.java Database.java Main.java Row.java Table.java Tokenizer.java Utils.java
+touch sentinel
+style61b BasicRowTest.java BasicTests.java Column.java CommandInterpreter.java Condition.java DBException.java Database.java Main.java Row.java Table.java Tokenizer.java Utils.java 
+Starting audit...
+BasicRowTest.java:10: method def modifier at indentation level 0 not at correct indentation, 4
+BasicRowTest.java:11: method def modifier at indentation level 8 not at correct indentation, 4
+BasicRowTest.java:11:1: File contains tab characters (this is the first instance).
+BasicRowTest.java:13: operator new lparen at indentation level 16 not at correct indentation, 8
+BasicRowTest.java:14: method def child at indentation level 16 not at correct indentation, 8
+BasicRowTest.java:15: method def child at indentation level 16 not at correct indentation, 8
+BasicRowTest.java:16: Line is longer than 80 characters (found 83).
+BasicRowTest.java:16: method def child at indentation level 16 not at correct indentation, 8
+BasicRowTest.java:17: Line is longer than 80 characters (found 81).
+BasicRowTest.java:17: method def child at indentation level 16 not at correct indentation, 8
+BasicRowTest.java:26: method def rcurly at indentation level 8 not at correct indentation, 4
+BasicRowTest.java:27: method def modifier at indentation level 8 not at correct indentation, 4
+BasicRowTest.java:29: method def rcurly at indentation level 8 not at correct indentation, 4
+BasicTests.java:2:8: Unused import - java.util.HashSet.
+BasicTests.java:3:8: Unused import - java.util.Iterator.
+BasicTests.java:40:1: File contains tab characters (this is the first instance).
+BasicTests.java:45: method call child at indentation level 4 not at correct indentation, 8
+BasicTests.java:45: method def child at indentation level 4 not at correct indentation, 8
+BasicTests.java:54: Line has trailing spaces.
+BasicTests.java:57:29: '{' is not preceded with whitespace.
+BasicTests.java:58: Line is longer than 80 characters (found 91).
+BasicTests.java:75:9: '//'-style comments are not allowed.
+BasicTests.java:76:9: '//'-style comments are not allowed.
+BasicTests.java:77:9: '//'-style comments are not allowed.
+BasicTests.java:81:53: ')' is preceded with whitespace.
+BasicTests.java:83: Line has trailing spaces.
+BasicTests.java:85: Line has trailing spaces.
+CommandInterpreter.java:3:8: Unused import - java.util.Arrays.
+CommandInterpreter.java:4:1: Duplicate import to line 2 - java.io.PrintStream.
+CommandInterpreter.java:13: Type Javadoc tag @author must match pattern '^\s*\w[-\w\s.]+'.
+CommandInterpreter.java:185:11: 'if' is not followed by whitespace.
+CommandInterpreter.java:187: if child at indentation level 13 not at correct indentation, 12
+CommandInterpreter.java:188:15: 'else' is not followed by whitespace.
+CommandInterpreter.java:188:15: '{' is not preceded with whitespace.
+CommandInterpreter.java:191: Line has trailing spaces.
+CommandInterpreter.java:196:9: '//'-style comments are not allowed.
+CommandInterpreter.java:197: method def child at indentation level 9 not at correct indentation, 8
+CommandInterpreter.java:204: Line has trailing spaces.
+CommandInterpreter.java:210:9: '//'-style comments are not allowed.
+CommandInterpreter.java:217:9: '//'-style comments are not allowed.
+CommandInterpreter.java:218: method def child at indentation level 9 not at correct indentation, 8
+CommandInterpreter.java:224:11: 'if' is not followed by whitespace.
+CommandInterpreter.java:224:22: '{' is not preceded with whitespace.
+CommandInterpreter.java:226:10: 'else' is not preceded with whitespace.
+CommandInterpreter.java:226:10: '}' is not followed by whitespace.
+CommandInterpreter.java:226:14: 'else' is not followed by whitespace.
+CommandInterpreter.java:226:14: '{' is not preceded with whitespace.
+CommandInterpreter.java:227:40: ',' is not followed by whitespace.
+CommandInterpreter.java:233:9: '//'-style comments are not allowed.
+CommandInterpreter.java:237: method def child at indentation level 9 not at correct indentation, 8
+CommandInterpreter.java:246:18: '<' is preceded with whitespace.
+CommandInterpreter.java:266: Line has trailing spaces.
+CommandInterpreter.java:269:15: Name 'output_table' must match pattern '^([A-Z][0-9]*|[a-z][a-zA-Z0-9]*)$'.
+CommandInterpreter.java:271: Line has trailing spaces.
+CommandInterpreter.java:274:14: 'while' is not followed by whitespace.
+CommandInterpreter.java:274:34: '{' is not preceded with whitespace.
+CommandInterpreter.java:281:14: 'while' is not followed by whitespace.
+CommandInterpreter.java:281:34: '{' is not preceded with whitespace.
+CommandInterpreter.java:282: while child at indentation level 8 not at correct indentation, 12
+CommandInterpreter.java:283: while child at indentation level 8 not at correct indentation, 12
+CommandInterpreter.java:286:11: 'if' is not followed by whitespace.
+CommandInterpreter.java:286:30: '{' is not preceded with whitespace.
+CommandInterpreter.java:287:24: Expression can be simplified.
+CommandInterpreter.java:292:10: 'else' is not preceded with whitespace.
+CommandInterpreter.java:292:10: '}' is not followed by whitespace.
+CommandInterpreter.java:295:20: '{' is not preceded with whitespace.
+CommandInterpreter.java:297:10: 'else' is not preceded with whitespace.
+CommandInterpreter.java:297:10: '}' is not followed by whitespace.
+CommandInterpreter.java:297:14: 'else' is not followed by whitespace.
+CommandInterpreter.java:297:14: '{' is not preceded with whitespace.
+CommandInterpreter.java:300: Don't use trailing comments.
+CommandInterpreter.java:300: method def child at indentation level 12 not at correct indentation, 8
+CommandInterpreter.java:300:42: '//'-style comments are not allowed.
+CommandInterpreter.java:338:17: '//'-style comments are not allowed.
+CommandInterpreter.java:339:30: Name '_empty' must match pattern '^([A-Z][0-9]*|[a-z][a-zA-Z0-9]*)$'.
+CommandInterpreter.java:340: Line has trailing spaces.
+CommandInterpreter.java:342: Line has trailing spaces.
+CommandInterpreter.java:342:14: 'while' is not followed by whitespace.
+CommandInterpreter.java:357:25: '=' is not followed by whitespace.
+CommandInterpreter.java:358: if child at indentation level 13 not at correct indentation, 12
+CommandInterpreter.java:360:15: 'else' is not followed by whitespace.
+CommandInterpreter.java:360:15: '{' is not preceded with whitespace.
+CommandInterpreter.java:362: Line has trailing spaces.
+CommandInterpreter.java:362:20: Name 'not_str' must match pattern '^([A-Z][0-9]*|[a-z][a-zA-Z0-9]*)$'.
+CommandInterpreter.java:364: Line has trailing spaces.
+CommandInterpreter.java:365: Line has trailing spaces.
+CommandInterpreter.java:365: method def child at indentation level 12 not at correct indentation, 8
+CommandInterpreter.java:366:19: '//'-style comments are not allowed.
+Condition.java:1:1: '//'-style comments are not allowed.
+Condition.java:2:1: '//'-style comments are not allowed.
+Condition.java:3:1: '//'-style comments are not allowed.
+Condition.java:4:1: '//'-style comments are not allowed.
+Condition.java:6:1: '//'-style comments are not allowed.
+Condition.java:7:1: '//'-style comments are not allowed.
+Condition.java:11:8: Unused import - java.util.Arrays.
+Condition.java:12:8: Unused import - java.io.IOException.
+Condition.java:13:1: Duplicate import to line 11 - java.util.Arrays.
+Condition.java:13:8: Unused import - java.util.Arrays.
+Condition.java:14:8: Unused import - java.util.HashSet.
+Condition.java:15:8: Unused import - java.util.Iterator.
+Condition.java:20: Type Javadoc tag @author must match pattern '^\s*\w[-\w\s.]+'.
+Condition.java:26:9: '//'-style comments are not allowed.
+Condition.java:30: Line has trailing spaces.
+Condition.java:42: Line has trailing spaces.
+Condition.java:49:9: '//'-style comments are not allowed.
+Condition.java:50: Line has trailing spaces.
+Condition.java:51:16: Name 'my_col1' must match pattern '^([A-Z][0-9]*|[a-z][a-zA-Z0-9]*)$'.
+Condition.java:51:23: '=' is not preceded with whitespace.
+Condition.java:52:16: Name 'my_col2' must match pattern '^([A-Z][0-9]*|[a-z][a-zA-Z0-9]*)$'.
+Condition.java:53:27: '{' is not preceded with whitespace.
+Condition.java:54:22: '=' is not followed by whitespace.
+Condition.java:55:10: 'else' is not preceded with whitespace.
+Condition.java:55:10: '}' is not followed by whitespace.
+Condition.java:55:14: 'else' is not followed by whitespace.
+Condition.java:55:14: '{' is not preceded with whitespace.
+Condition.java:62:11: 'if' is not followed by whitespace.
+Condition.java:62:34: '{' is not preceded with whitespace.
+Condition.java:65:11: 'if' is not followed by whitespace.
+Condition.java:65:34: '{' is not preceded with whitespace.
+Condition.java:68:11: 'if' is not followed by whitespace.
+Condition.java:68:35: '{' is not preceded with whitespace.
+Condition.java:71:11: 'if' is not followed by whitespace.
+Condition.java:71:34: '{' is not preceded with whitespace.
+Condition.java:72:29: '==' is not followed by whitespace.
+Condition.java:74:11: 'if' is not followed by whitespace.
+Condition.java:74:35: '{' is not preceded with whitespace.
+Condition.java:77:11: 'if' is not followed by whitespace.
+Condition.java:77:35: '{' is not preceded with whitespace.
+Condition.java:80: method def child at indentation level 12 not at correct indentation, 8
+Condition.java:99:5: '//'-style comments are not allowed.
+Condition.java:100:5: Missing a Javadoc comment.
+Database.java:4:1: '//'-style comments are not allowed.
+Database.java:8: Type Javadoc tag @author must match pattern '^\s*\w[-\w\s.]+'.
+Database.java:11:9: '//'-style comments are not allowed.
+Database.java:18:35: Expression can be simplified.
+Database.java:23: Line has trailing spaces.
+Database.java:32:9: '//'-style comments are not allowed.
+Database.java:33:35: Expression can be simplified.
+Database.java:40:5: '//'-style comments are not allowed.
+Database.java:41:5: Missing a Javadoc comment.
+Row.java:4:1: Duplicate import to line 3 - java.util.List.
+Row.java:9: Type Javadoc comment is missing an @author tag.
+Row.java:36:9: '//'-style comments are not allowed.
+Row.java:37:18: Name 'store_rows' must match pattern '^([A-Z][0-9]*|[a-z][a-zA-Z0-9]*)$'.
+Row.java:38: Line has trailing spaces.
+Row.java:44: Line has trailing spaces.
+Row.java:44: ctor def child at indentation level 12 not at correct indentation, 8
+Row.java:50: Don't use trailing comments.
+Row.java:50:31: '//'-style comments are not allowed.
+Row.java:55: Line has trailing spaces.
+Row.java:59: Don't use trailing comments.
+Row.java:59: method def child at indentation level 12 not at correct indentation, 8
+Row.java:59:38: '//'-style comments are not allowed.
+Row.java:71: Don't use trailing comments.
+Row.java:71:22: '//'-style comments are not allowed.
+Row.java:74:5: Missing a Javadoc comment.
+Row.java:91:5: Missing a Javadoc comment.
+Table.java:8:8: Unused import - java.util.Arrays.
+Table.java:29:9: '//'-style comments are not allowed.
+Table.java:42: Line has trailing spaces.
+Table.java:43:10: '//'-style comments are not allowed.
+Table.java:58: Don't use trailing comments.
+Table.java:58:41: '//'-style comments are not allowed.
+Table.java:63: Don't use trailing comments.
+Table.java:63:31: '//'-style comments are not allowed.
+Table.java:81: Line has trailing spaces.
+Table.java:83:12: '//'-style comments are not allowed.
+Table.java:89: Line has trailing spaces.
+Table.java:101:13: '//'-style comments are not allowed.
+Table.java:105:20: Name 'rest_Row' must match pattern '^([A-Z][0-9]*|[a-z][a-zA-Z0-9]*)$'.
+Table.java:113: Line has trailing spaces.
+Table.java:140: for child at indentation level 12 not at correct indentation, 16
+Table.java:141: for child at indentation level 12 not at correct indentation, 16
+Table.java:141:17: Name '_length' must match pattern '^([A-Z][0-9]*|[a-z][a-zA-Z0-9]*)$'.
+Table.java:142: for child at indentation level 12 not at correct indentation, 16
+Table.java:143: for at indentation level 12 not at correct indentation, 16
+Table.java:144: for child at indentation level 16 not at correct indentation, 20
+Table.java:145: if at indentation level 16 not at correct indentation, 20
+Table.java:146: if child at indentation level 20 not at correct indentation, 24
+Table.java:146: method call child at indentation level 20 not at correct indentation, 24
+Table.java:147: if child at indentation level 20 not at correct indentation, 24
+Table.java:148: if rcurly at indentation level 16 not at correct indentation, 20
+Table.java:149: for child at indentation level 16 not at correct indentation, 20
+Table.java:149: method call child at indentation level 16 not at correct indentation, 20
+Table.java:150: if at indentation level 16 not at correct indentation, 20
+Table.java:151: if child at indentation level 20 not at correct indentation, 24
+Table.java:151: method call child at indentation level 20 not at correct indentation, 24
+Table.java:152: Line has trailing spaces.
+Table.java:152: if rcurly at indentation level 16 not at correct indentation, 20
+Table.java:153: for rcurly at indentation level 12 not at correct indentation, 16
+Table.java:154: for child at indentation level 12 not at correct indentation, 16
+Table.java:154: method call child at indentation level 12 not at correct indentation, 16
+Table.java:155: for child at indentation level 12 not at correct indentation, 16
+Table.java:156: for rcurly at indentation level 8 not at correct indentation, 12
+Table.java:171:17: Name '_length' must match pattern '^([A-Z][0-9]*|[a-z][a-zA-Z0-9]*)$'.
+Table.java:182: Line has trailing spaces.
+Table.java:192:9: '//'-style comments are not allowed.
+Table.java:193: Line has trailing spaces.
+Table.java:196:20: Name 'my_col2' must match pattern '^([A-Z][0-9]*|[a-z][a-zA-Z0-9]*)$'.
+Table.java:199: for at indentation level 12 not at correct indentation, 8
+Table.java:200: Line has trailing spaces.
+Table.java:201: if at indentation level 16 not at correct indentation, 12
+Table.java:202:21: Name 'nw_row' must match pattern '^([A-Z][0-9]*|[a-z][a-zA-Z0-9]*)$'.
+Table.java:205: Line has trailing spaces.
+Table.java:206: Line has trailing spaces.
+Table.java:207: Line has trailing spaces.
+Table.java:208: method def child at indentation level 12 not at correct indentation, 8
+Table.java:220:28: Name 'col_names' must match pattern '^([A-Z][0-9]*|[a-z][a-zA-Z0-9]*)$'.
+Table.java:231: Line has trailing spaces.
+Table.java:234: Line has trailing spaces.
+Table.java:239: Line has trailing spaces.
+Table.java:241: Line has trailing spaces.
+Table.java:248:50: '&&' should be on a new line.
+Table.java:252: Line has trailing spaces.
+Table.java:253: if child at indentation level 24 not at correct indentation, 20
+Table.java:271: Line has trailing spaces.
+Table.java:272: method def rcurly at indentation level 7 not at correct indentation, 4
+Table.java:276:5: '//'-style comments are not allowed.
+Table.java:277:5: Missing a Javadoc comment.
+Table.java:277:31: Name 'new_col' must match pattern '^_?[a-z][a-zA-Z0-9]*$|_[A-Z]$'.
+Table.java:277:31: Variable 'new_col' must be private and have accessor methods.
+Audit done.
+make: *** [style] Error 221
+
+Compilation exited abnormally with code 2 at Fri Oct 24 22:05:31
